@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-HTML</title>
+</head>
+<body>
+    <!-- Esto es un comentario-->
+    <!--Etiquetas de encabezado-->
+    <h1>01 - Introduccion HTML</h1>
+    <h2>Generation México</h2>
+    <h3>Cohorte 43</h3>
+    <h4>Instructores y mentores</h4>
+    <h5>Participantes</h5>
+    <h6>Julio 2024</h6>
+    
+    <!--Etiqueta de parrafo(p)-->
+    <p>Hola me llamo Brandon y soy un estudiante de la cohore 43 de Generation
+        MexicoJava Full Stack
+    </p>
+    <p><strong>Lorem ipsum</strong>, dolor sit amet consectetur adipisicing
+        elit.Deleniti adipisci quae ratione consectetur est quod similique 
+        quasi, non a anini cupiditae nisi porro dolorenque officia veleti totam
+        ulam¡ Inventore, ex Aperiam aut <b>Courpti sequi eveniet <i>presentium </i> distictio aperiam quis.</b>
+
+    </p>
+    <!--Elemento de linea de separacion(no lleva etiqueta de cierre) -->
+    <hr>
+
+    <!--elementopara realizar un salto de linea-->
+    <br>
+
+    <!--Elemento para formato de texto :<b> </b>,  <i> </i>-->
+    <p><strong>Lorem ipsum</strong>, dolor sit amet consectetur adipisicing
+        elit.Deleniti adipisci quae ratione consectetur est quod similique 
+        quasi, non a anini cupiditae nisi Inventore, ex Aperiam 
+        <b>Courpti sequi eveniet <i>presentium </i> distictio aperiam quis.</b>
+
+    </p>
+
+
+
+    <!--Etiqueta de imagen <img> esta etiqueta solo es de apertura
+    y debe de ir acompañado de atributos que nos permitan establecer propiedades-->
+    <h2> etiqueta de imagen</h2>
+    <img src="https://pbs.twimg.com/profile_images/917481867976331264/uy_YTm-i_400x400.jpg"
+    alt="logo rosa de genmx" width="150px" height="120px"> 
+    <br>
+    <img src="/assets/generation_logo1.jpg" alt="logo verde de genmx" width="200px">
+    <hr>
+    <!--etiqueta anchor (anchaje ) <a> <a/>  nos premite crear hipervinculos desde
+        desde cualquier elemento HTML vilculado  a una ruta .necesito atributos 
+        para hacerlas funcionar-->
+
+        <h2> etiqueta de anclaje</h2>
+        <a href="https://www.google.com/" target="_blank"> Este es un enlace</a>
+        
+        <!-- salto de linea para dividir las dos etiquetas de anclaje -->
+        <br>
+        <a href="https://generation.org/" target="_blank">
+            <img src="/assets/generation_logo1.jpg" alt="logo verde de genmx" width="200px">
+         </a>
+
+
+         <br>
+         <a href="https://code.visualstudio.com/">
+            <p> este es un enlacea VSC</p> 
+        </a>
+        <hr>
+        <!-- Etiquetas de lista  Podemos tener dos tipos de listas
+         ordenadas y desordenadas. Cada tipo de lista necescita items que viven 
+         dentro de ellas 
+         <ul></ul> lista desordenada (muestra viñetas sin jerarquia)
+         <ol></ol> lista ordenada (muestra viñetas con jerarquia)
+         <li></li> item de lista
+          -->
+        <h2> Etiquetas de lista</h2>
+        <ul>Lista desordenada de productos. 
+            <li>tomates </li>
+            <li>cebollas </li>
+            <li>limones</li>
+        </ul>
+
+
+        <!--etiqueta de lista ordenada -->
+        <ol> Lista Ordenada de comidas favoritas.
+            <li>gringa de pastor</li>
+            <li>chilaquiles</li>
+            <li>picaña</li>
+        </ol>
+
+        <ol type="a"> Lista ordenada y seccionada.
+            <li>Seccion A</li>
+            <li>Seccion B</li>
+            <li>Seccion C</li>
+
+        </ol>
+
+
+        <!--  Menu de taqueria  con listas dentro de listas  -->
+        <p>MENU DE TAQUETRIA </p>
+        <ol type="I">categorias
+            <li>Tacos
+                <ul>
+                    <li> 
+                        <a href="./assets/descargar.jpeg" target="-blank">Pastor </a>
+                    </li>
+                    <li>
+                        <a href="./assets/sirloin.jpeg" target="_blank">Sirlon</a>
+                    </li>
+                    <li>
+                        <a href="https://alabio.mx/imagenes/tacos-asada-eventos-puebla-2371.jpg" target="_blank" >Asada</a>
+                    </li>
+                </ul>
+            </li> 
+            <li>Gringas
+                <ul>
+                    <li>Pastor </li>
+                    <li>Sirlon</li>
+                    <li>Asada</li>
+                    <li>Longaniza</li>
+                </ul>
+            </li>
+            <li>Tortas
+                <ol>
+                    <li>Pastor </li>
+                    <li>Sirlon</li>
+                    <li>Asada</li>
+                </ol>
+            </li>
+            <li>Especialidades</li>
+
+            <li>Bebidas
+                
+            </li>
+        </ol>
+
+        <hr>
+        <!--Etiquetas div y span-->
+        <!-- div  etiqueta divisora que permite coontener
+         otros elementos sin afeccctarlos 
+         directamente.Podemos anidar todos los divs 
+         que queramos sin problemas
+         span. Etiqueta divisora en linea que permite rodear parte 
+         del elemento dentro de la etiqueta.Tambien 
+         lo podemos usar como un elemento que no tiene 
+         un formato en especifico--> 
+        <h2>Etiquetas div y span" </h2>
+        <div>
+            <p>Primer parrafo</p>
+            <div>
+                <p>Parrafo anidado en el div del <span> div 1</span></p>
+                <p>Parrafo anidado en el div del div 2</p>
+            </div>
+
+        </div> 
+        <p>segundo parrafo</p>
+        <span>Tercer parrafo</span>
+        <span>Cuarto parrafo</span>
+        <span>Quinto parrafo</span> 
+
+        <br><br><br><br>
+        <br><br><br><br>
+
+    </html> 
