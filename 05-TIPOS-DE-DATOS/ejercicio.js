@@ -1,0 +1,1 @@
+let compras = prompt("cantidad comprada") 

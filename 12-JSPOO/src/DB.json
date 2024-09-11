@@ -1,0 +1,62 @@
+[
+    {
+        "correoElectronico": "juan.perez@ejemplo.com",
+        "contrasena": "password123",
+        "numeroTelefono": "5551234567",
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "fechaNacimiento": "1985-06-15",
+        "codigoPostal": "54321",
+        "ciudad": "Ciudad A",
+        "estado": "Estado A",
+        "pais": "País A"
+    },
+    {
+        "correoElectronico": "maria.garcia@ejemplo.com",
+        "contrasena": "password456",
+        "numeroTelefono": "5552345678",
+        "nombre": "María",
+        "apellido": "García",
+        "fechaNacimiento": "1990-07-20",
+        "codigoPostal": "67890",
+        "ciudad": "Ciudad B",
+        "estado": "Estado B",
+        "pais": "País B"
+    },
+    {
+        "correoElectronico": "pedro.lopez@ejemplo.com",
+        "contrasena": "password789",
+        "numeroTelefono": "5553456789",
+        "nombre": "Pedro",
+        "apellido": "López",
+        "fechaNacimiento": "1980-08-30",
+        "codigoPostal": "98765",
+        "ciudad": "Ciudad C",
+        "estado": "Estado C",
+        "pais": "País C"
+    },
+    {
+        "correoElectronico": "luisa.martinez@ejemplo.com",
+        "contrasena": "password101",
+        "numeroTelefono": "5554567890",
+        "nombre": "Luisa",
+        "apellido": "Martínez",
+        "fechaNacimiento": "1995-09-10",
+        "codigoPostal": "11223",
+        "ciudad": "Ciudad D",
+        "estado": "Estado D",
+        "pais": "País D"
+    },
+    {
+        "correoElectronico": "roberto.sanchez@ejemplo.com",
+        "contrasena": "password202",
+        "numeroTelefono": "5555678901",
+        "nombre": "Roberto",
+        "apellido": "Sánchez",
+        "fechaNacimiento": "1987-10-25",
+        "codigoPostal": "33445",
+        "ciudad": "Ciudad E",
+        "estado": "Estado E",
+        "pais": "País E"
+    }
+]

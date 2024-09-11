@@ -1,0 +1,97 @@
+/*Estilos de CSS*/
+/**{background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,28,1) 35%, rgba(0,212,255,1) 100%);}
+*/
+    h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 3.5rem;
+    font-weight:900;
+    
+}
+
+/*Agregar familia de fuentes externa */
+h2{
+    color: rgb(34, 16, 140);
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+/*Sin la coma le indico que  los estilos se aplican a los anchor 
+que vivien en la lista*/
+/*Con la coma, le indico que  los estilos se aplican a todos los elemetos 
+que yo llamo*/
+li a{
+    color: rgb(171, 43, 34);
+    background-color:#A9D6E5;
+}
+
+/*Background (fondo)*/
+.sections{
+    background-color:#D1E8E2;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color:#E2E2E2;
+    color:#19747E;
+    font-family: cursive;
+}
+#section--2{
+    color: rgb(10, 20, 210);
+}
+#section--2 {
+    color:chocolate;
+}
+/* 
+Agregamos el estilo a los párrafos que viven dentro del elemento con el id="section--2".
+#section--2 p{
+    color: darkseagreen;
+} 
+*/
+/* Agregamos estilos únicos al párrafo que vive en el div 2, pero solo se agrega al párrafo indicado con la class="parrafo--2". */
+.parrafo--2 {
+    color: darkseagreen;
+}
+
+#section--5{
+    background-image:url("../assets/gato.jpg") ;
+    background-size: 110px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+#cat--meme{
+    width: 100px;
+    height: 88px;
+
+}
+
+/*border define */
+.main--section6{
+    border-style: solid;
+    border-color: brown;
+    border-width: 5px;
+    border-radius: 10px;
+}
+.gatuna{
+    border-style: solid;
+    border-color: #19747E;
+    border-width: 4px;
+    border-radius: 15px;
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 50px;
+    /*podemos definir las medidas de cada lado siguiendo 
+    el sentido de laas manecillas del reloj
+    margin: 30px 10px 5px 50px;
+    */
+    /*podemos definir las medidas de arriba y abajo , y de dercha 
+    e izquierda de la suiente manera
+    margin:20px 10px*/
+
+    padding: 10px 15px;
+
+}

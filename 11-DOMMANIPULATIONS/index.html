@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <h1 class="title" id="title1">Dom Manipulation</h1>
+    <h2 class="title" id="title2">JavaScript 11</h2>
+    <h3 class="title" id="title3">El DOM  es una API que me permite  manipular el documento </h3>
+    <h3 class="title" id="title4">usa nodos para acceder, modificar, crear y eliminar un elemento</h3>
+
+    <!--Div vacion qeu despues manipulare-->
+
+    <div id="img--container"> <!--Aqui no hay nada --></div>
+    <hr>
+        <!-- Botón para mostrar y ocultar la sección -->
+        <button id="button--card">Mostrar/Ocultar Sección</button>
+        <!-- Section -->
+        <div class="container" id="card--container">
+            <!-- Main Container -->
+            <div class="main">
+                <h2>Eventos</h2>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Ingresa tu nombre de usuario">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Ingresa tu correo electrónico">
+                <button id="button--main">Actualizar Perfil</button>
+            </div>
+               <!-- Profile Container -->
+            <div class="profile">
+                <h3 id="name"></h3>
+                <h4 id="age"></h4>
+                <p id="e-mail"></p>
+                <ul id="films"></ul>
+            </div>
+            
+        </div>
+
+
+
+    
+    <script src="./src/index.js"></script>
+    <script src="./src/button.js"> </script>
+</body>
+</html>
